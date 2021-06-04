@@ -87,6 +87,16 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-/**
- * Add your highlight code here
- */
+.highlight {
+  display: block;
+  position: absolute;
+  height: 80px;
+  width: 300px;
+  top: -10px;
+  left: 1100px;
+  transition: 0.2s ease all;
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+  background: radial-gradient(rgba(157, 128, 238, 1), rgba(157, 128, 238, 0));
+}
